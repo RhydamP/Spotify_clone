@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: rgb(214, 215, 226);
+    background-image: url('bodyimg.jpg');
+    background-size: 500vh;
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(43, 33, 33);
+    color: white;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 12px;
+
+}
+nav ul li{
+    padding: 0px 10px;
+}
+.brand img{
+    width: 44px;
+    padding: 0px 10px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+.container{
+    min-height: 65vh;
+    font-family: 'Varela Round', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 30px 100px;
+    display: flex;
+    padding: 30px;
+    background-image: url('redhood.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vh 70vh;
+    background-position: 400px;
+}
+.songItemContainer{
+    margin: 50px 0;
+}
+.songItem{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    height: 35px;
+    width: 120%;
+    border-radius: 30px;
+
+}
+.songListplay{
+    padding: 0 20px;
+}
+.songItem img{
+    width: 30px;
+    border-radius: 30px;
+    margin: 5px 10px;
+}
+.timestamp{
+    margin: 0 40px;
+    cursor: pointer;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.bottom{
+    background-color: black;
+    color: rgb(182, 182, 221);
+    height: 80px;
+    position: sticky;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.icons{
+    margin: 10px;
+
+}
+.icons i{
+    cursor: pointer;
+    padding: 0 30px;
+}
+#myProgressBar{
+    width: 80%;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    width: 25px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
